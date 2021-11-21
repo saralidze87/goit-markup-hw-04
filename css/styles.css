@@ -170,7 +170,6 @@ body {
 }
 .hidden-header {
   position: absolute;
-  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -327,7 +326,6 @@ body {
 }
 .clients-main {
   color: var(--second-title-color);
-  font-style: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
