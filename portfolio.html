@@ -32,10 +32,18 @@
             </nav>
             <ul class="header-contacts">
                 <li class="item">
-                    <a class="header-link header-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="header-link header-contacts-text link" href="mailto:info@devstudio.com"><svg class="header-icon"
+                            width="16" height="12">
+                            <use href="./images/icons.svg#icon-letter"></use>
+                        </svg>info@devstudio.com
+                    </a>
                 </li>
                 <li class="item">
-                    <a class="header-link header-contacts link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="header-link header-contacts-text link" href="tel:+380961111111"><svg class="header-icon" width="10"
+                            height="16">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11
+                    </a>
                 </li>
             </ul>
         </div>
@@ -62,8 +70,8 @@
             </ul> 
             <h1 class="hidden-header">Проекты</h1>
             <ul class="list project-list">
-                <li class="item">
-                    <a class="link" href="">
+                <li class="item project-item">
+                    <a class="link project-item-link" href="">
                         <img class="project-img" src="./images/portfolio1.jpg" alt="noutbook" width="370" height="294">
                         <div class="project-content">
                             <h2 class="work project-link">Технокряк</h2>
@@ -71,8 +79,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="item project-item">
+                    <a class="link project-item-link" href="">
                         <img class="project-img" src="./images/portfolio2.jpg" alt="poster" width="370" height="294">
                         <div class="project-content">
                              <h2 class="work" lang="en">Постер New Orlean vs Golden Star</h2>
@@ -80,8 +88,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="item project-item">
+                    <a class="link project-item-link" href="">
                         <img class="project-img" src="./images/portfolio3.jpg" alt="fish" width="370" height="294">
                         <div class="project-content">
                             <h2 class="work">Ресторан Seafood</h2>
@@ -89,8 +97,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="item project-item">
+                    <a class="link project-item-link" href="">
                         <img class="project-img" src="./images/portfolio4.jpg" alt="headphones" width="370" height="294">
                         <div class="project-content">
                             <h2 class="work" lang="en">Проект Prime</h2>
@@ -98,8 +106,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="item project-item">
+                    <a class="link project-item-link" href="">
                         <img class="project-img" src="./images/portfolio5.jpg" alt="boxes" width="370" height="294">
                         <div class="project-content">
                             <h2 class="work" lang="en">Проект Boxes</h2>
@@ -107,8 +115,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="item project-item">
+                    <a class="link project-item-link" href="">
                         <img class="project-img" src="./images/portfolio6.jpg" alt="computer" width="370" height="294">
                         <div class="project-content">
                             <h2 class="work" lang="en">Inspiration has no Borders</h2>
@@ -116,8 +124,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="item project-item">
+                    <a class="link project-item-link" href="">
                         <img class="project-img" src="./images/portfolio7.jpg" alt="book" width="370" height="294">
                         <div class="project-content">
                             <h2 class="work" lang="en">Издание Limited Edition</h2>
@@ -125,8 +133,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="item project-item">
+                    <a class="link project-item-link" href="">
                         <img class="project-img" src="./images/portfolio8.jpg" alt="LAB" width="370" height="294">
                         <div class="project-content">
                             <h2 class="work">Проект LAB</h2>
@@ -134,8 +142,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link" href="">
+                <li class="item project-item">
+                    <a class="link project-item-link" href="">
                         <img class="project-img" src="./images/portfolio9.jpg" alt="work" width="370" height="294">
                         <div class="project-content">
                             <h2 class="work" lang="en">Growing Business</h2>
@@ -149,22 +157,57 @@
        
     </main>
     <footer class="footer">
-        <div class="container footer-container">
-            <a class="footer-logo link" lang="en" href="WebStudio">Web<span class="footer-logo-studio">Studio</span></a>
-            <address>
-                <ul class="list footer-list">
-                    <li class="item">
-                        <a class="link footer-address" href="https://goo.gl/maps/gBsBQiJznwFm2XDAA">г. Киев, пр-т Леси
-                            Украинки, 26</a>
+        <div class="container footer-content">
+            <div class="footer-right">
+                <a class="footer-logo link" lang="en" href="WebStudio">Web<span class="footer-logo-studio">Studio</span></a>
+                <address>
+                    <ul class="list footer-list">
+                        <li class="item">
+                            <a class="link footer-address" href="https://goo.gl/maps/gBsBQiJznwFm2XDAA">г. Киев, пр-т Леси
+                                Украинки, 26</a>
+                        </li>
+                        <li class="item">
+                            <a class="link footer-contacts" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li class="item">
+                            <a class="link footer-contacts" href="tel:+380991111111">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="join">
+                <p class="join-main">присоединяйтесь</p>
+                <ul class="join-list">
+                    <li class="join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="item">
-                        <a class="link footer-contacts" href="mailto:info@example.com">info@example.com</a>
+                    <li class="join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="item">
-                        <a class="link footer-contacts" href="tel:+380991111111">+38 099 111 11 11</a>
+                    <li class="join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
