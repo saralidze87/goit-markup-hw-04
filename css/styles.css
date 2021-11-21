@@ -505,19 +505,17 @@ body {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding-bottom: 65px;
 }
-.project-item-link:nth-child(3n + 2) {
+.project-item {
+  max-width: 370px;
+}
+.project-item:nth-child(3n + 2) {
   margin-left: 30px;
   margin-right: 30px;
 }
-.project-item-link:hover,
-.project-item-link:focus {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+.project-item:hover,
+.project-item:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16);
-  display: block;
 }
 
 .project-img {
