@@ -373,7 +373,14 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-right {
+  justify-content: start;
+}
 .footer-logo {
   font-family: Raleway;
   font-style: normal;
@@ -416,6 +423,18 @@ body {
 }
 
 .join {
+  width: 206px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 70px;
+}
+.join-main {
+  margin-bottom: 20px;
+}
+.join-list {
   display: flex;
 }
 /*----------------------------PORTFOLIO-------------------*/
